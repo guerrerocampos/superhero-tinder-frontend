@@ -9,17 +9,14 @@ const Header = (props) => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
-    <div>
-      <Navbar color="dark" light>
+    <>
+      <Navbar color="dark" light id="navbar">
           <img src = {logo} className = "logo" />
-        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
-        <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar>
-            <NavItem>
+          <NavItem>
               <NavLink href="/components/" id = "header-text">Explore</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap" id = "header-text">Log In</NavLink>
+              <NavLink href="https://github.com/reactstrap/reactstrap" id = "header-text">Sign In</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/components/" id = "header-text">About</NavLink>
@@ -27,10 +24,25 @@ const Header = (props) => {
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap" id = "header-text">Contact </NavLink>
             </NavItem>
+        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+        <Collapse isOpen={!collapsed} navbar>
+          <Nav navbar>
+            <NavItem>
+              <NavLink href="/components/" id = "header-text">My Portfolio</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="https://github.com/reactstrap/reactstrap" id = "header-text">LinkedIn</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/components/" id = "header-text">Github</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="https://github.com/reactstrap/reactstrap" id = "header-text">Instagram</NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
-    </div>
+    </>
   );
 }
 

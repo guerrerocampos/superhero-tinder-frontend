@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Home from './pages/Home';
 import mockHeros from './mockHeros.js';
 import {
   BrowserRouter as Router,
@@ -25,7 +26,7 @@ class App extends Component {
       <Router>
         <Header />
         <Switch>
-
+        <Route exact path="/" component={ Home } />
         </Switch>
       </Router>
       <Footer />

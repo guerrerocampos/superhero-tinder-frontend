@@ -1,9 +1,20 @@
+@font-face {
+  font-family: 'fenixhead';
+  src: local('fenixhead'), url('./assets/FENIXHEA.TTF') format('truetype');
+}
+
 .App {
   text-align: center;
 }
 
+#navbar {
+  position:fixed;
+  top: 0;
+  width: 100%;
+}
+
 .logo {
-  height: 14vmin;
+  height: 7vw;
   pointer-events: none;
 }
 
@@ -14,7 +25,10 @@
 
 #header-text {
   color:honeydew;
+}
 
+#header-text:hover {
+  color: red;
 }
 
 #footer-text {
@@ -24,4 +38,66 @@
 #footer-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.header-div {
+  height: 60vh;
+  background-image: url("https://wallpaperaccess.com/full/528780.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  margin-top: 8%;
+}
+
+.intro-div {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
+}
+
+.batmanSolo {
+  border-radius: 50%;
+}
+
+.titleText {
+  color: rgb(49, 147, 212);
+  font-size: 7vw;
+  text-shadow: 2px 2px #000000;
+  display: flex;
+  justify-content: center;
+  position:relative, bottom 80px;
+  font-family: fenixhead;
+}
+
+.without {
+  color: red;
+
+}
+
+.mysteryMan {
+  display:flex;
+  justify-content: center;
+  width: 300px;
+  margin-left: 35vw;
+  margin-top: 1ex;
+}
+
+.joinTextDiv {
+  padding: 200px;
+  display: flex;
+  text-align: center;
+  ;
+  background-color: lightgrey;
+  border-color: lightgrey;
+  margin: 0px
+}
+
+.joinText {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 300%;
+}
+
+.carousel {
+  margin: 30px;
+  padding: 10px;
+  position:absolute;;
 }
