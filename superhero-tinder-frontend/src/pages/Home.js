@@ -13,7 +13,7 @@ class Home extends Component {
             </div>
             <div className = "intro-div">
                 <img src= "https://cdn.selfstairway.com/wp-content/uploads/2013/01/103090-batman-sad-batman.jpg" alt = "batman standing feeling lonely" className ="batmanSolo"/>
-                <p>
+                <p className= 'intro-paragraph'>
                 Tired of living this "mysterious" lifestyle by yourself? Is it Lonely at the top? Is your identity Top Priority?
                 Here at Super Tinder, we help everyday heroes like you find hapiness and fullfillment. meet everyday single people looking for friends. *please make sure to wear a face mask underneath your hero mask to prevent the spread of COVID*
                 </p>
