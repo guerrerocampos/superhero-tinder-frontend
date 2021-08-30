@@ -20,16 +20,13 @@ class Home extends Component {
             </div>
             <div id='joinUsContainer'>
                 <div className='joinTextDiv'>
-                    <h1 className="joinText">Join the Hundreds of Users online now!</h1>
+                    <h1 className="joinText">Check out the community below!</h1>
                 </div>
                     <br></br>
                     <br></br>
-                <div className='carousel'>
-                    <Carousel />
-                </div>
             </div>
-            <div>
-                <h2 className= 'createAccountDiv'>Create Account</h2>
+            <div className = 'carouselContainer'>
+                <Carousel />
             </div>
             </>
         )

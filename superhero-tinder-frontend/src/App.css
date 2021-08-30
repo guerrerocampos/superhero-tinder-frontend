@@ -82,18 +82,15 @@
 }
 
 #joinUsContainer {
-  display: flex;                  /* establish flex container */
-  flex-direction: row;            /* default value; can be omitted */
-  flex-wrap: nowrap;              /* default value; can be omitted */
-  justify-content: space-between; /* switched from default (flex-start, see below) */
-  background-color: lightyellow;
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
 }
 
 .joinTextDiv {
   padding: 200px;
   display: flex;
   text-align: center;
-  ;
   background-color: lightgrey;
   border-color: lightgrey;
   margin: 0px
@@ -101,16 +98,10 @@
 
 .joinText {
   font-family: fenixhead;
-  color: yellow;
+  color: rgb(0, 255, 242);
   font-size: 300%;
   border: solid #000000;
-  background-image: linear-gradient(red, blue);
-}
-
-.carousel {
-  position:absolute;
-  background-color: lightgrey;
-
+  background-image: linear-gradient(rgb(32, 31, 31), rgb(184, 184, 185));
 }
 
 .intro-paragraph {
@@ -127,14 +118,14 @@ body {
   background-color: lightgrey;
 }
 
-/* .carousel-item > img { 
-  width: 100%; 
-} */
-.carousel {
-  width:640px;
-  height:360px;
+.carouselContainer {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJhnHWQLYBklg67U1yRVwDeyvRPTnClUpJ3w&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  max-width: 40%;
+  max-height: 40%;
+  display: flex;
+  margin-left: 35%;
 }
 
-.createAccountDiv {
-  
-}

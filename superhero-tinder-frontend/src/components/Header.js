@@ -4,6 +4,7 @@ import logo from '../assets/LogoGif.gif';
 import '../App.css';
 import HeroIndex from '../pages/HeroIndex';
 import About from '../pages/About';
+import More from '../pages/More';
 
 const Header = (props) => {
   const [collapsed, setCollapsed] = useState(true);
@@ -22,6 +23,9 @@ const Header = (props) => {
             </NavItem>
             <NavItem>
               <NavLink path="/about" component={ About } id = "header-text">About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink path="/more" component={ More } id = "header-text">More</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap" id = "header-text">Contact </NavLink>

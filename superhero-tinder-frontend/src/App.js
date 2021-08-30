@@ -8,6 +8,7 @@ import HeroIndex from './pages/HeroIndex';
 import HeroNew from './pages/HeroNew';
 import HeroShow from './pages/HeroShow';
 import NotFound from './pages/NotFound';
+import More from './pages/More';
 
 import mockHeros from './mockHeros.js';
 import {
@@ -40,6 +41,7 @@ class App extends Component {
           <Route path="/heronew" component={ HeroNew } />
           <Route path="/heroedit/:id" component={ HeroEdit } />
           <Route path="/about" component={ About } />
+          <Route path="/more" component={ More } />
           <Route path="/contact" component={ Contact } />
           <Route component={ NotFound }/>
         </Switch>

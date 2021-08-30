@@ -1,4 +1,5 @@
-import { UncontrolledCarousel } from 'reactstrap';
+import { UncontrolledCarousel, Row, Col } from "reactstrap";
+
 
 const items = [
     {
@@ -24,6 +25,12 @@ const items = [
     }
   ];
 
-  const carouselImages = () => <UncontrolledCarousel items={items} />;
-
-export default carouselImages;
+  const carouselImages = () => (
+    <Row>
+      <Col md="8" className="mx-auto">
+        <UncontrolledCarousel items={items} />
+      </Col>
+    </Row>
+  );
+  
+  export default carouselImages;
