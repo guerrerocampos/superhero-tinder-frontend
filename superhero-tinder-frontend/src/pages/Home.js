@@ -18,15 +18,19 @@ class Home extends Component {
                 Here at Super Tinder, we help everyday heroes like you find hapiness and fullfillment. meet everyday single people looking for friends. *please make sure to wear a face mask underneath your hero mask to prevent the spread of COVID*
                 </p>
             </div>
-            <div className='joinTextDiv'>
-                <h1 className="joinText">Join the Hundreds of Users online now!</h1>
-                <br></br>
-                <br></br>
+            <div id='joinUsContainer'>
+                <div className='joinTextDiv'>
+                    <h1 className="joinText">Join the Hundreds of Users online now!</h1>
+                </div>
+                    <br></br>
+                    <br></br>
                 <div className='carousel'>
-                <Carousel />
+                    <Carousel />
                 </div>
             </div>
- 
+            <div>
+                <h2 className= 'createAccountDiv'>Create Account</h2>
+            </div>
             </>
         )
     }
