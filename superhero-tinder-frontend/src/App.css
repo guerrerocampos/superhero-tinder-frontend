@@ -62,7 +62,7 @@
   width: 500px;
   border-radius:50%;
   margin-left: 5vw;
-  margin-top: 10vh;
+  margin-top: 20vh;
   border-radius: 10px;
   border: solid #847f86 10px;
   grid-row: 2;
@@ -81,17 +81,12 @@
   font-family: fenixhead;
 }
 
-.without {
-  color: red;
-
-}
-
-.mysteryMan {
-  display:flex;
-  justify-content: center;
-  width: 300px;
-  margin-left: 35vw;
-  margin-top: 1ex;
+#joinUsContainer {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+  background-color: lightyellow;
 }
 
 .joinTextDiv {
@@ -105,14 +100,17 @@
 }
 
 .joinText {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: fenixhead;
+  color: yellow;
   font-size: 300%;
+  border: solid #000000;
+  background-image: linear-gradient(red, blue);
 }
 
 .carousel {
-  margin: 30px;
-  padding: 10px;
-  position:absolute;;
+  position:absolute;
+  background-color: lightgrey;
+
 }
 
 .intro-paragraph {
@@ -127,4 +125,16 @@
 
 body {
   background-color: lightgrey;
+}
+
+/* .carousel-item > img { 
+  width: 100%; 
+} */
+.carousel {
+  width:640px;
+  height:360px;
+}
+
+.createAccountDiv {
+  
 }
