@@ -88,20 +88,37 @@
 }
 
 .joinTextDiv {
-  padding: 200px;
+  padding: 120px;
   display: flex;
+<<<<<<< HEAD
   text-align: center;
+=======
+  width: 100%;
+  justify-content: center;
+>>>>>>> 58f5847f54d075f7b0dd2a3b12fd60d2ac6299ae
   background-color: lightgrey;
   border-color: lightgrey;
-  margin: 0px
 }
 
 .joinText {
   font-family: fenixhead;
+<<<<<<< HEAD
   color: rgb(0, 255, 242);
   font-size: 300%;
   border: solid #000000;
   background-image: linear-gradient(rgb(32, 31, 31), rgb(184, 184, 185));
+=======
+  color: black;
+  font-size: 300%;
+  border: solid #000000;
+  background-color: grey;
+}
+
+.carousel {
+  position:absolute;
+  background-color: lightgrey;
+
+>>>>>>> 58f5847f54d075f7b0dd2a3b12fd60d2ac6299ae
 }
 
 .intro-paragraph {
@@ -118,6 +135,7 @@ body {
   background-color: lightgrey;
 }
 
+<<<<<<< HEAD
 .carouselContainer {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJhnHWQLYBklg67U1yRVwDeyvRPTnClUpJ3w&usqp=CAU");
   background-repeat: no-repeat;
@@ -127,5 +145,21 @@ body {
   max-height: 40%;
   display: flex;
   margin-left: 35%;
+=======
+.carousel {
+  width:640px;
+  /* height:360px; */
+  height: 5%;
+  border:#000000 solid 5px;
+  
+
+}
+
+.carouselBox {
+  background-color: lightgrey;
+  height: 100%;
+  padding: 10%;
+
+>>>>>>> 58f5847f54d075f7b0dd2a3b12fd60d2ac6299ae
 }
 

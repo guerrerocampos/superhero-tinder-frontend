@@ -24,6 +24,14 @@ class Home extends Component {
                 </div>
                     <br></br>
                     <br></br>
+<<<<<<< HEAD
+=======
+            </div>
+            <div className= 'carouselBox'>
+                <div className='carousel'>
+                    <Carousel />
+                </div>
+>>>>>>> 58f5847f54d075f7b0dd2a3b12fd60d2ac6299ae
             </div>
             <div className = 'carouselContainer'>
                 <Carousel />
