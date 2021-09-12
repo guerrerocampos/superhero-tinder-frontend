@@ -90,21 +90,20 @@
 }
 
 .joinTextDiv {
-  padding: 200px;
+  padding: 120px;
   display: flex;
-  text-align: center;
-  ;
+  width: 100%;
+  justify-content: center;
   background-color: lightgrey;
   border-color: lightgrey;
-  margin: 0px
 }
 
 .joinText {
   font-family: fenixhead;
-  color: yellow;
+  color: black;
   font-size: 300%;
   border: solid #000000;
-  background-image: linear-gradient(red, blue);
+  background-color: grey;
 }
 
 .carousel {
@@ -127,12 +126,20 @@ body {
   background-color: lightgrey;
 }
 
-/* .carousel-item > img { 
-  width: 100%; 
-} */
 .carousel {
   width:640px;
-  height:360px;
+  /* height:360px; */
+  height: 5%;
+  border:#000000 solid 5px;
+  
+
+}
+
+.carouselBox {
+  background-color: lightgrey;
+  height: 100%;
+  padding: 10%;
+
 }
 
 .createAccountDiv {

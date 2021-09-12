@@ -24,6 +24,8 @@ class Home extends Component {
                 </div>
                     <br></br>
                     <br></br>
+            </div>
+            <div className= 'carouselBox'>
                 <div className='carousel'>
                     <Carousel />
                 </div>
