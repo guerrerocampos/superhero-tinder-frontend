@@ -30,8 +30,12 @@ class Home extends Component {
                     <Carousel />
                 </div>
             </div>
-            <div>
-                <h2 className= 'createAccountDiv'>Create Account</h2>
+            <div className= 'createAccountDiv'>
+                <div className= 'createAccount' >
+                <p>
+                    <a>Create Account</a>
+                </p>
+                </div>
             </div>
             </>
         )
