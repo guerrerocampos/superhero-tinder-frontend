@@ -15,16 +15,25 @@
   text-align: center;
 }
 
+html,body{
+  overflow-x: hidden;
+}
+
 #navbar {
-  position:fixed;
+  /* position:fixed; */
   top: 0;
-  width: 100%;
-  z-index: 21;
+  width: 100vw;
+  z-index: 21
+}
+
+.mr-2 {
+  margin-right: 45px;
 }
 
 .logo {
   height: 7vw;
   pointer-events: none;
+  margin-left: 20px;
 }
 
 .mr-auto {
@@ -40,31 +49,46 @@
   color: red;
 }
 
+.footerItems {
+  margin-left: 40%;
+  font-size: 2vw;
+  text-decoration: underline;
+}
+
 #footer-text {
   color:honeydew;
+}
+
+#footer-text:hover {
+  color:red;
 }
 
 #footer-logo {
   height: 40vmin;
   pointer-events: none;
+  margin-right: 35px;
 }
 
 .header-div {
-  height: 60vh;
+  height: 38vw;
   background-image: url("https://wallpaperaccess.com/full/528780.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  margin-top: 8%;
+
+  /* margin-top: auto */
+}
+
+.spidey {
+ margin-bottom: 300px;
 }
 
 .intro-div {
   display: flex;
-  justify-content: space-between;
   background-color: lightgrey;
 }
 
 .batmanSolo {
-  width: 500px;
+  width: 50vw;
   border-radius:50%;
   margin-left: 5vw;
   margin-top: 20vh;
@@ -73,6 +97,21 @@
   grid-row: 2;
   height: 50%
   
+}
+
+.intro-paragraph {
+  font-size: 30px;
+  margin-left: 30vw;
+  margin-top: 10vh;
+  font-family: comicText;
+  margin-right: 10vw;
+}
+
+@media screen and (max-width: 540px) {
+  .intro-div {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .titleText {
@@ -115,15 +154,6 @@
   z-index: 0;
 }
 
-.intro-paragraph {
-  font-size: 30px;
-  display: flex;
-  /* align-items: flex-end; */
-  margin-left: 30vw;
-  margin-top: 10vh;
-  font-family: comicText;
-  margin-right: 5vw;
-}
 
 body {
   background-color: lightgrey;
@@ -133,7 +163,9 @@ body {
   width:640px;
   /* height:360px; */
   /* height: 5%; */
-  border:#000000 solid 10px;
+  border:10px whitesmoke;
+  border: solid white 5px;
+  box-shadow: 3px 3px 5px black;
 }
 
 .carouselBox {
@@ -146,9 +178,9 @@ body {
 
 .createAccountDiv {
   background-image: url('https://butwhythopodcast.com/wp-content/uploads/2020/02/Top-Seven-Couples-in-Comics.jpg');
+  height: 50vw;
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  padding: 200px;
+  background-size: 100%;
   filter:contrast(65%);
   /* filter: blur(8px); */
   display: flex;
@@ -158,12 +190,14 @@ body {
 
 .createAccount {
   color: white;
-  font-size: 100px;
+  font-size: 10vw;
   border: black solid 2px;
   background-color: rgb(16, 144, 230);
   padding-left: 10px;
   padding-right: 10px;
   box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-family: fenixhead;
+
 }
 
 .createAccount:hover {

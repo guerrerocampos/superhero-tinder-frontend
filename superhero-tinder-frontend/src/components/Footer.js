@@ -8,7 +8,7 @@ const  Footer = (props) => {
   return (
     <div className = "footer-div">
       <Navbar color="dark" light>
-          <Nav navbar>
+          <Nav navbar className= 'footerItems'>
             <NavItem>
               <NavLink href="/components/" id = "footer-text" className = "explore">Explore</NavLink>
             </NavItem>

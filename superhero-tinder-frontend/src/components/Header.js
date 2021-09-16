@@ -13,7 +13,7 @@ const Header = (props) => {
   return (
     <>
       <Navbar color="dark" light id="navbar">
-          <img src = {logo} className = "logo" />
+          <img src = {logo} className = "logo" alt='hero logo'/>
           <NavItem>
               <NavLink path="/heroindex" component={ HeroIndex }  id = "header-text">Explore</NavLink>
             </NavItem>
@@ -26,7 +26,7 @@ const Header = (props) => {
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap" id = "header-text">Contact </NavLink>
             </NavItem>
-        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+        <NavbarToggler onClick={toggleNavbar} className="mr-2" style={{backgroundColor: 'white'}}/>
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>

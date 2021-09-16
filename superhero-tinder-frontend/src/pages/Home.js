@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { UncontrolledCarousel } from 'reactstrap';
 import Carousel from '../components/Carousel.js';
 
 class Home extends Component {
@@ -10,6 +9,7 @@ class Home extends Component {
                 <h1 className = "titleText">Connect without revealing</h1>
                 <br></br>
                 <h1 className = "titleText"> your true Identity</h1>
+                <img src='https://media0.giphy.com/media/QP7Iw9BfERn7S2UK4e/giphy.gif?cid=6c09b952qybym1mptu46u6q8uss1qx4931pec3hg87imi5uc&rid=giphy.gif&ct=s' alt='spiderman swinging' className='spidey' />
             </div>
             <div className = "intro-div">
                 <img src= "https://cdn.selfstairway.com/wp-content/uploads/2013/01/103090-batman-sad-batman.jpg" alt = "batman standing feeling lonely" className ="batmanSolo"/>
