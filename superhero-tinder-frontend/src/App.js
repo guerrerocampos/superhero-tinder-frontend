@@ -31,11 +31,11 @@ class App extends Component {
   render () {
     return (
       <>
-      <Header />
       <Router>
+      <Header />
         <Switch>
           <Route exact path="/" component={ Home } />
-          <Route path="/heroindex" component={ HeroIndex } />
+          <Route path="/heroindex" render={ (props) => <HeroIndex heroes={ this.state.heroes } /> }/>
           <Route path="/heroshow/:id" component={ HeroShow } />
           <Route path="/heronew" component={ HeroNew } />
           <Route path="/heroedit/:id" component={ HeroEdit } />

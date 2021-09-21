@@ -15,7 +15,7 @@ const Header = (props) => {
       <Navbar color="dark" light id="navbar">
           <img src = {logo} className = "logo" alt='hero logo'/>
           <NavItem>
-              <NavLink path="/heroindex" component={ HeroIndex }  id = "header-text">Explore</NavLink>
+              <NavLink to='/heroindex'  id = "header-text">Explore</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap" id = "header-text">Sign In</NavLink>
